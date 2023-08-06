@@ -14,16 +14,15 @@ class Solution:
         #     B = B.next if B else headA
         # return A
 
-        # 求长度
-        lenA, lenB = 0, 0
-        cur = headA
-        while cur:         # 求链表A的长度
-            cur = cur.next 
-            lenA += 1
-        cur = headB 
-        while cur:         # 求链表B的长度
-            cur = cur.next 
-            lenB += 1
-        curA, curB = headA, headB
+        # # 求长度
+        # lenA, lenB = 0, 0
+        # cur = headA
+        # while cur:         # 求链表A的长度
+        #     cur = cur.next 
+        #     lenA += 1
+        # cur = headB 
+        # while cur:         # 求链表B的长度
+        #     cur = cur.next 
+        #     lenB += 1
+        # curA, curB = headA, headB
 
-        
