@@ -1,9 +1,3 @@
-print('hello world')
-print('你好，世界')
-
-
-def main():
-    print(123)
-
-
-main()
+hash = {"a":1, "b":2, "c":3}
+for val in hash.keys():
+    print(val)
